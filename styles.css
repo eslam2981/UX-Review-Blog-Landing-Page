@@ -831,9 +831,12 @@ nav .container {
 
 .authors .authors-content {
   text-align: center;
+    position: relative;
+  z-index: 1;
 }
 
 .authors .authors-content h2 {
+
   font-size: 40px;
   font-weight: 900;
   margin-bottom: 20px;
