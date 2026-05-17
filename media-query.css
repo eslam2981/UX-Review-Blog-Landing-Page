@@ -156,6 +156,10 @@
 
 /* xxl 1280px - 1536px */
 @media (min-width: 1280px) {
+  .layer {
+    display: none !important;
+  }
+
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
