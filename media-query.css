@@ -160,6 +160,20 @@
     display: none !important;
   }
 
+  .hero .right-content span {
+    top: 1px;
+    right: -20px;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+  }
+
+  .hero .right-content .img {
+    transform: rotate(3deg);
+  }
+
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
