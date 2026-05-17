@@ -1,0 +1,258 @@
+/* md 640px - 768px */
+@media (min-width: 640px) {
+  .latest-articles .left-content h2 {
+    font-size: 25px;
+  }
+
+  .hero .container .left-content .buttons {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .hero .left-content .buttons .btn1,
+  .hero .left-content .buttons .btn2 {
+    margin: 0;
+    width: auto;
+  }
+}
+
+/* lg 768px - 1024px */
+@media (min-width: 768px) {
+  .latest-articles .left-content h2 {
+    font-size: 35px;
+  }
+
+  .latest-articles .left-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cards .card {
+    flex-direction: row;
+  }
+
+  .cards .card .card-left {
+    width: auto;
+  }
+
+  .cards .card img {
+    margin-top: 20px;
+    width: 220px;
+    height: 140px;
+  }
+}
+
+/* xl 1024px - 1280px */
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+
+  .footer-container {
+    width: 80%;
+  }
+
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .brand-col {
+    max-width: 400px;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  nav .container {
+    width: 80%;
+  }
+
+  .join-us .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .join-us-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .join-us-left-side,
+  .join-us-right-side {
+    width: auto;
+    flex: 1;
+  }
+
+  .authors .authors-cards .authors-card .content p {
+    max-width: 280px;
+  }
+
+  .authors .authors-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+    margin-bottom: 40px;
+  }
+
+  .authors .authors-cards .authors-card {
+    width: 31%;
+    margin-block: 20px;
+    justify-content: center;
+  }
+
+  .latest-articles .left-content h2 {
+    font-size: 45px;
+  }
+
+  .latest-articles .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .latest-articles .left-side {
+    max-width: 700px;
+    flex: 2;
+  }
+
+  .right-side {
+    flex: 1;
+    position: sticky;
+    top: 45px;
+    margin-top: 0;
+  }
+
+  .hero .container .left-content .buttons {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  .hero .container {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .hero .left-content h1 {
+    font-size: 70px;
+  }
+
+  .hero .right-content img {
+    width: 515px;
+    height: 390px;
+    display: block;
+  }
+}
+
+/* xxl 1280px - 1536px */
+@media (min-width: 1280px) {
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0);
+    transition: none;
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .menu .menu-content {
+    display: none;
+  }
+
+  .humburger-menu {
+    display: none;
+  }
+
+  .button i {
+    display: none;
+  }
+
+  .menu-content i {
+    border: none;
+    padding: 0;
+  }
+
+  .menu .nav-links i {
+    display: block;
+    color: #d1d5db;
+    font-size: 14px;
+    cursor: default;
+  }
+
+  .menu .nav-links li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+  }
+
+  .menu .nav-links {
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+  }
+
+  .menu .nav-links a {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .nav-wrapper .button {
+    font-size: 14px;
+    padding: 8px 24px;
+    border: 2px solid black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-left: auto;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    box-shadow: 0px 0px 0px transparent;
+  }
+
+  .menu .nav-links a {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+  }
+
+  .menu .nav-links li:hover {
+    transform: translateY(0);
+  }
+
+  .nav-wrapper .button:hover {
+    transform: translate(5%, 10%);
+    -webkit-transform: translate(5%, 10%);
+    -moz-transform: translate(5%, 10%);
+    -ms-transform: translate(5%, 10%);
+    -o-transform: translate(5%, 10%);
+  }
+}
